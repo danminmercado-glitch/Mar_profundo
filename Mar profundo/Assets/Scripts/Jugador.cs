@@ -62,7 +62,6 @@ public class Jugador : MonoBehaviour
             miNivel = datosCargados.nivel;
             BarraAhogamiento = datosCargados.ahogamiento;
             transform.position = datosCargados.posicion;
-
             Debug.Log("Datos actualizados: Nivel " + miNivel);
         }
     }

@@ -13,5 +13,7 @@ public class DatosJugador
         nivel = _nivel;
         salud = _ahogamiento;
         posicion = _posicion;
-    } 
+    }
+
+    public float ahogamiento { get; internal set; }
 }
