@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Botellas
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CLas risas eran fuertes. Mis pensamientos, no.\u201D "
+  Opcionuno: Tomar la botella
+  Opciondos: Tirarlas

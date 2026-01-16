@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Celular
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CAl principio me hac\xEDa sentir elegida. Luego, peque\xF1a.\u201D "
+  Opcionuno: Leer los mensajes
+  Opciondos: Bloquear contacto

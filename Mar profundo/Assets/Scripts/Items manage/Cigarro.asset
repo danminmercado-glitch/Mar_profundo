@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Cigarro
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CRecuerdo el humo llenando mis pulmones. No pensaba en pap\xE1.
+    No pensaba en mam\xE1. No pensaba en m\xED. Solo quer\xEDa que el ruido se apagara.\u201D"
+  Opcionuno: Encender el cigarro
+  Opciondos: Apagar el Encendedor

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Osos
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CEl dolor f\xEDsico era claro, controlable. A diferencia del otro\u2026
+    el que nadie ve\xEDa.\u201D "
+  Opcionuno: Abrazarlo
+  Opciondos: Soltarlo

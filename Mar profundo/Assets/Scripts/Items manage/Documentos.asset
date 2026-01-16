@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Documentos
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CFacturas, contratos, recibos\u2026 > despu\xE9s de que pap\xE1
+    muri\xF3, la casa dej\xF3 de oler a pintura y empez\xF3 a oler a papel. > Mam\xE1
+    dec\xEDa que era por nosotros, que todo esto era por m\xED\u2026 > pero yo solo
+    ve\xEDa su espalda saliendo por la puerta.\u201D"
+  Opcionuno: Ordenar los documentos
+  Opciondos: Tirarlos

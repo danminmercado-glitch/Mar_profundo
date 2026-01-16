@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Cuadro
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CPap\xE1 dec\xEDa que los cuadros eran puertas. > Yo nunca pens\xE9
+    que una puerta pod\xEDa quedarse sin due\xF1o.\u201D"
+  Opcionuno: Mirarla
+  Opciondos: Terminarla

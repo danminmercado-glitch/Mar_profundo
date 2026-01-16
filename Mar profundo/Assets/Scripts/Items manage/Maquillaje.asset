@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Maquillaje
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CDec\xEDan que as\xED me ve\xEDa mejor. Nunca dijeron que me ve\xEDa
+    feliz.\u201D "
+  Opcionuno: Maquillarse
+  Opciondos: Desmaquillarse

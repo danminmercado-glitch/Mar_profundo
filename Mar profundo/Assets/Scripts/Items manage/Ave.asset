@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad600aafab13a6c4fb160963afe13297, type: 3}
   m_Name: Ave
   m_EditorClassIdentifier: 
-  Historia: 
-  Opcionuno: 
-  Opciondos: 
+  Historia: "\u201CSi la dejo ir\u2026 \xBFqu\xE9 pasa conmigo?\u201D"
+  Opcionuno: Dejarla en la Jaula
+  Opciondos: Abrir la Jaula
