@@ -9,14 +9,7 @@ public class PlayerAnimationControler : MonoBehaviour
 
     private void Update()
     {
-        if (Input  .GetKeyDown ( KeyCode.W ) )
-        {
-            cambiarAnimacion("Caminar");
-        }
-        if ( Input .GetKeyUp  ( KeyCode.W  ))
-        {
-            cambiarAnimacion("Idle");
-        }
+    
 
     }
 
