@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 public class UImanager : MonoBehaviour
 {
    public static UImanager Instance;
@@ -8,6 +9,10 @@ public class UImanager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Botonuno;
     [SerializeField] private TextMeshProUGUI Botondos;
     public GameObject panel;
+
+    private float Ahogamiento;
+    private float AhogamientoMaximo = 10;
+    public Image BarradeAhogamiento;
 
 
 
@@ -18,7 +23,7 @@ public class UImanager : MonoBehaviour
             Instance = this;
         }
         else { Destroy(this); }
-
+        ActualizarBarradeAhogamiento();
 
     }
 
@@ -38,12 +43,21 @@ public class UImanager : MonoBehaviour
     {
         panel.SetActive(false);
 
+        ActualizarBarradeAhogamiento();
     }
 
     public void respuestBotonDos()
     {
 
         panel.SetActive(false);
+
+        ActualizarBarradeAhogamiento();
+    }
+
+    private void ActualizarBarradeAhogamiento()
+    {
+        float CantidaddeLlenadodeBarra = Ahogamiento / AhogamientoMaximo;
+        BarradeAhogamiento.fillAmount = CantidaddeLlenadodeBarra;
     }
 
 
