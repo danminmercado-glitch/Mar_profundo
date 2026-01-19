@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
+    public PlayerAnimationControler animControler;
     [SerializeField] private float moveForce = 10f;
     [SerializeField] private float jumpForce = 265f;
 
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 movement = new Vector3(input.x, 0f, input.y);
         rb.AddForce(movement * moveForce, ForceMode.Force);
+        animControler.cambiarAnimacion("Caminar");
     }
 
     public void Jump(InputAction.CallbackContext context)
