@@ -14,11 +14,24 @@ public class ItemInteractor : MonoBehaviour
                 Debug.Log(objeto.Opcionuno);
                 Debug.Log(objeto.Opciondos);
 
+                MostrarItemenUI();
 
             }
         }
 
     }
+
+    public void MostrarItemenUI()
+
+    {
+        UImanager.Instance.UIUpdate(objeto.Historia, objeto.Opcionuno, objeto.Opciondos);
+
+
+    }
+
+
+
+
 
     private void OnTriggerEnter(Collider other)
     {
