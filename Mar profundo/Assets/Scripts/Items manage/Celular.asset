@@ -15,3 +15,11 @@ MonoBehaviour:
   Historia: "\u201CAl principio me hac\xEDa sentir elegida. Luego, peque\xF1a.\u201D "
   Opcionuno: Leer los mensajes
   Opciondos: Bloquear contacto
+  Ahogamiento_opcion1: 1
+  Ahogamiento_opcion2: 0
+  evasion_opcion1: 10
+  evasion_opcion2: -10
+  conciencia_opcion1: -5
+  conciencia_opcion2: 15
+  control_opcion1: -5
+  control_opcion2: 5

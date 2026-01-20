@@ -16,3 +16,11 @@ MonoBehaviour:
     el que nadie ve\xEDa.\u201D"
   Opcionuno: Usarlo
   Opciondos: Guardarlo
+  Ahogamiento_opcion1: 2
+  Ahogamiento_opcion2: 0
+  evasion_opcion1: 10
+  evasion_opcion2: -10
+  conciencia_opcion1: -10
+  conciencia_opcion2: 15
+  control_opcion1: -10
+  control_opcion2: 10

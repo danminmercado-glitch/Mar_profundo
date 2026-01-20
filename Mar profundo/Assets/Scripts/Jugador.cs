@@ -14,6 +14,9 @@ public class Jugador : MonoBehaviour
     private Vector2 _moveInput;
     public int miNivel = 1;
     public float BarraAhogamiento;
+    public int evasion = 0;
+    public int conciencia = 0;
+    public int control = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,7 +34,7 @@ public class Jugador : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             GuardarDatos();
         }
@@ -45,7 +48,7 @@ public class Jugador : MonoBehaviour
     void GuardarDatos()
     {
         // Creamos una nueva instancia de PlayerData con los valores actuales
-        DatosJugador datosAGuardar = new DatosJugador(miNivel, BarraAhogamiento, transform.position);
+        DatosJugador datosAGuardar = new DatosJugador(miNivel, BarraAhogamiento, transform.position, evasion, conciencia, control);
 
         // Llamamos al sistema estático
         SaveSystem.SaveGame(datosAGuardar);

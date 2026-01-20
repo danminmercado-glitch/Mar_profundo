@@ -15,3 +15,11 @@ MonoBehaviour:
   Historia: "\u201CSi la dejo ir\u2026 \xBFqu\xE9 pasa conmigo?\u201D"
   Opcionuno: Dejarla en la Jaula
   Opciondos: Abrir la Jaula
+  Ahogamiento_opcion1: 2
+  Ahogamiento_opcion2: -1
+  evasion_opcion1: 0
+  evasion_opcion2: 0
+  conciencia_opcion1: 0
+  conciencia_opcion2: 0
+  control_opcion1: 0
+  control_opcion2: 0

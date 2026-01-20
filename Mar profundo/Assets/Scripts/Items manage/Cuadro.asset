@@ -16,3 +16,11 @@ MonoBehaviour:
     que una puerta pod\xEDa quedarse sin due\xF1o.\u201D"
   Opcionuno: Mirarla
   Opciondos: Terminarla
+  Ahogamiento_opcion1: 1
+  Ahogamiento_opcion2: -2
+  evasion_opcion1: 15
+  evasion_opcion2: -10
+  conciencia_opcion1: -10
+  conciencia_opcion2: 20
+  control_opcion1: -5
+  control_opcion2: 15

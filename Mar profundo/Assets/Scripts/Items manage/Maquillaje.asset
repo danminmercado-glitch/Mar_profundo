@@ -16,3 +16,11 @@ MonoBehaviour:
     feliz.\u201D "
   Opcionuno: Maquillarse
   Opciondos: Desmaquillarse
+  Ahogamiento_opcion1: 1
+  Ahogamiento_opcion2: 0
+  evasion_opcion1: -5
+  evasion_opcion2: 10
+  conciencia_opcion1: -5
+  conciencia_opcion2: 10
+  control_opcion1: 5
+  control_opcion2: -5

@@ -1,5 +1,6 @@
-using UnityEngine;
+using System;
 using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 public class UImanager : MonoBehaviour
 {
@@ -8,6 +9,15 @@ public class UImanager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Historytext;
     [SerializeField] private TextMeshProUGUI Botonuno;
     [SerializeField] private TextMeshProUGUI Botondos;
+    [SerializeField] public int evasion;
+    [SerializeField] public int conciencia;
+    [SerializeField] public int control;
+    [SerializeField] public int evasion_opcion1;
+    [SerializeField] public int evasion_opcion2;
+    [SerializeField] public int conciencia_opcion1;
+    [SerializeField] public int conciencia_opcion2;
+    [SerializeField] public int control_opcion1;
+    [SerializeField] public int control_opcion2;
     public GameObject panel;
 
     private float Ahogamiento;
@@ -42,7 +52,9 @@ public class UImanager : MonoBehaviour
     public void respuestaBotonUno()
     {
         panel.SetActive(false);
-
+        evasion = evasion + evasion_opcion1;
+        conciencia = conciencia + conciencia_opcion1;
+        evasion = evasion + evasion_opcion1;
         ActualizarBarradeAhogamiento();
     }
 
@@ -50,7 +62,9 @@ public class UImanager : MonoBehaviour
     {
 
         panel.SetActive(false);
-
+        evasion = evasion + evasion_opcion2;
+        conciencia = conciencia + conciencia_opcion2;
+        control = control + control_opcion2;
         ActualizarBarradeAhogamiento();
     }
 
