@@ -9,17 +9,8 @@ public class UImanager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Historytext;
     [SerializeField] private TextMeshProUGUI Botonuno;
     [SerializeField] private TextMeshProUGUI Botondos;
-    [SerializeField] public int evasion;
-    [SerializeField] public int conciencia;
-    [SerializeField] public int control;
-    [SerializeField] public int evasion_opcion1;
-    [SerializeField] public int evasion_opcion2;
-    [SerializeField] public int conciencia_opcion1;
-    [SerializeField] public int conciencia_opcion2;
-    [SerializeField] public int control_opcion1;
-    [SerializeField] public int control_opcion2;
+    public Informaciondelobjeto infoobjeto;
     public GameObject panel;
-
     private float Ahogamiento;
     private float AhogamientoMaximo = 10;
     public Image BarradeAhogamiento;
@@ -37,13 +28,17 @@ public class UImanager : MonoBehaviour
 
     }
 
-    public void UIUpdate(string historytext,string botonunotext,string botondostext)
+    public void UIUpdate(Informaciondelobjeto _infoobjeto)
     {
-        panel.SetActive (true);
-        Historytext.text = historytext;
+       
 
-        Botonuno.text = botonunotext;
-        Botondos.text = botondostext;
+    
+        infoobjeto = _infoobjeto;
+        panel.SetActive (true);
+        Historytext.text = _infoobjeto.Historia;
+
+        Botonuno.text = _infoobjeto.Opcionuno;
+        Botondos.text = _infoobjeto.Opciondos;
 
 
 
@@ -52,9 +47,7 @@ public class UImanager : MonoBehaviour
     public void respuestaBotonUno()
     {
         panel.SetActive(false);
-        evasion = evasion + evasion_opcion1;
-        conciencia = conciencia + conciencia_opcion1;
-        evasion = evasion + evasion_opcion1;
+        Ahogamiento += infoobjeto.Ahogamiento_opcion1;
         ActualizarBarradeAhogamiento();
     }
 
@@ -62,9 +55,7 @@ public class UImanager : MonoBehaviour
     {
 
         panel.SetActive(false);
-        evasion = evasion + evasion_opcion2;
-        conciencia = conciencia + conciencia_opcion2;
-        control = control + control_opcion2;
+        Ahogamiento += infoobjeto.Ahogamiento_opcion2;
         ActualizarBarradeAhogamiento();
     }
 
