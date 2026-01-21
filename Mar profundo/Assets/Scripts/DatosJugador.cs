@@ -30,6 +30,10 @@ public class DatosJugador : MonoBehaviour
         {
             finalbueno = true;
         }
+        else if (Ahogamiento > 10)
+        {
+            Destroy(gameObject.GetComponent<Jugador>());
+        }
     }
     public float ahogamiento { get; internal set; }
 }
