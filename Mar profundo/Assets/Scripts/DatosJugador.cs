@@ -4,7 +4,7 @@ using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 [System.Serializable] 
-public class DatosJugador
+public class DatosJugador : MonoBehaviour
 {
     public int nivel;
     public float Ahogamiento;
@@ -27,7 +27,7 @@ public class DatosJugador
     private void Update()
     {
         if(Ahogamiento <= 5)
-    {
+        {
             finalbueno = true;
         }
     }

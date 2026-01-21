@@ -24,7 +24,7 @@ public class ItemInteractor : MonoBehaviour
     public void MostrarItemenUI()
 
     {
-        UImanager.Instance.UIUpdate(objeto.Historia, objeto.Opcionuno, objeto.Opciondos);
+        UImanager.Instance.UIUpdate(objeto);
 
 
     }
